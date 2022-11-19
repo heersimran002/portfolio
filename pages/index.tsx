@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <div className="hidden lg:flex items-center gap-8 text-sm">
           {navlinks.map((link) => {
             return (
-              <Link href={link.link} key={link.id}>
+              <Link href={link.link} key={link.id} target="_blank">
                 <div className="flex items-center gap-1 uppercase font-montserrat font-medium">
                   <span className="text-perfume-700">{link.id}.</span>
                   <span>{link.name}</span>
@@ -39,9 +39,15 @@ const Home: NextPage = () => {
               </Link>
             );
           })}
-          <button className="block text-perfume-700 border border-perfume-700 bg-perfume-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
-            Resume
-          </button>
+          <Link
+            href="/resume_simranjeekaur.pdf"
+            download="simranjeetkaur"
+            target="_blank"
+          >
+            <button className="block text-perfume-700 border border-perfume-700 bg-perfume-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
+              Resume
+            </button>
+          </Link>
         </div>
         <Sidebar />
       </header>
@@ -67,9 +73,11 @@ const Home: NextPage = () => {
                   I am a developer who specializes in creating memorable,
                   user-friendly digital experiences and human-centered products.
                 </p>
-                <button className="block text-perfume-700 border border-perfume-700 bg-perfume-100 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
-                  Explore projects!
-                </button>
+                <Link href="/#projects">
+                  <button className="block text-perfume-700 border border-perfume-700 bg-perfume-100 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
+                    Explore projects!
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="bg-perfume-100 lg:bg-transparent p-3 lg:p-0 flex items-center justify-center rounded-md lg:flex-[2]">
@@ -184,9 +192,11 @@ const Home: NextPage = () => {
               I’m currently looking for new opportunities.
             </p>
           </div>
-          <button className="block text-perfume-100 border border-perfume-300 bg-perfume-700 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
-            say hello
-          </button>
+          <Link href="mailto:heersimran002@gmail.com">
+            <button className="block text-perfume-100 border border-perfume-300 bg-perfume-700 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
+              Hire me{" "}
+            </button>
+          </Link>
         </div>
       </div>
     </div>
