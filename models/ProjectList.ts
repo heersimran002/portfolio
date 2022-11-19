@@ -83,7 +83,12 @@ export const projectList: ProjectList[] = [
       { id: "3", name: "Javascript" },
     ],
     buttons: [
-      { id: "1", name: "Visit", redirect: "/simran.top", icon: null },
+      {
+        id: "1",
+        name: "Visit",
+        redirect: "http://simran.top/index.php",
+        icon: null,
+      },
       { id: "2", name: "Github", redirect: "/", icon: null },
     ],
     position: "left",
