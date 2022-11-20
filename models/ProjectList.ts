@@ -46,7 +46,7 @@ export const projectList: ProjectList[] = [
     id: "2",
     title: "Netflix clone",
     subtitle:
-      "Created a netflix clone by successfully implementing APi calls and learned to use Material Ui. It displays the trailer fetching data from youtube API",
+      "Created a netflix clone by successfully implementing API calls and learned to use Material Ui. It displays the trailer fetching data from youtube API",
     image: "/project_image.jpg",
     chips: [
       { id: "1", name: "React" },
@@ -91,7 +91,7 @@ export const projectList: ProjectList[] = [
       },
       {
         id: "2",
-        name: "Github",
+        name: "BitBucket",
         redirect:
           "https://bitbucket.org/heersimran002/project_capstone/src/master/",
         icon: null,

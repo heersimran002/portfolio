@@ -74,7 +74,7 @@ const Home: NextPage = () => {
                   user-friendly digital experiences and human-centered products.
                 </p>
                 <Link href="/#projects">
-                  <button className="block text-perfume-700 border border-perfume-700 bg-perfume-100 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
+                  <button className="block text-perfume-700 border border-perfume-700 bg-perfume-100 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase mt-2">
                     Explore projects!
                   </button>
                 </Link>
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
             </p>
             <p className="text-slate-600">
               I’ve had the privilege of working for both
-              <span className="text-perfume-700 font-medium cursor-pointer">
+              <span className="text-perfume-700 font-medium">
                 {" "}
                 a start-up and a huge corporation.{" "}
               </span>
@@ -117,7 +117,7 @@ const Home: NextPage = () => {
             <p className="text-slate-600">
               I am also enrolled in Professional, Applied and Continuing
               Education
-              <span className="text-perfume-700 font-medium cursor-pointer">
+              <span className="text-perfume-700 font-medium">
                 {" "}
                 Web Development
               </span>{" "}
