@@ -188,13 +188,20 @@ const Home: NextPage = () => {
             <h1 className="text-5xl lg:text-6xl tracking-tight font-montserrat font-bold  text-perfume-50">
               Get In Touch
             </h1>
-            <p className="lg:w-1/2 text-lg text-perfume-300">
+            <p className="lg:w-4/4 text-lg text-perfume-300">
               I’m currently looking for new opportunities.
             </p>
+            <Link
+              href="https://www.linkedin.com/in/simranjeet-kaur-heer-834250187/"
+              target="_blank"
+            >
+              <span className="text-md text-perfume-400">Say Hello 💬 on </span>
+              <p className="text-lg text-perfume-100">Linkedin</p>
+            </Link>
           </div>
           <Link href="mailto:heersimran002@gmail.com">
             <button className="block text-perfume-100 border border-perfume-300 bg-perfume-700 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
-              Hire me{" "}
+              Email 📩{" "}
             </button>
           </Link>
         </div>
