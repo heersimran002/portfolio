@@ -89,7 +89,13 @@ export const projectList: ProjectList[] = [
         redirect: "http://simran.top/index.php",
         icon: null,
       },
-      { id: "2", name: "Github", redirect: "/", icon: null },
+      {
+        id: "2",
+        name: "Github",
+        redirect:
+          "https://bitbucket.org/heersimran002/project_capstone/src/master/",
+        icon: null,
+      },
     ],
     position: "left",
   },
