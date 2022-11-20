@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <div className="hidden lg:flex items-center gap-8 text-sm">
           {navlinks.map((link) => {
             return (
-              <Link href={link.link} key={link.id} target="_blank">
+              <Link href={link.link} key={link.id}>
                 <div className="flex items-center gap-1 uppercase font-montserrat font-medium">
                   <span className="text-perfume-700">{link.id}.</span>
                   <span>{link.name}</span>
