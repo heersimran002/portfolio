@@ -168,14 +168,14 @@ export const projectList: ProjectList[] = [
       {
         id: "1",
         name: "Visit",
-        redirect: "http://expense_tracker.simran.top/index.php",
+        redirect: "https://expensetracker-bb6a0.web.app/",
         icon: null,
       },
       {
         id: "2",
         name: "Github",
         redirect:
-          "https://github.com/heersimran002/Projects/tree/master/my-project",
+          "https://github.com/heersimran002/Projects/tree/master/react/my-app",
         icon: null,
       },
     ],
