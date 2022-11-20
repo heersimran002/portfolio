@@ -40,7 +40,7 @@ const Home: NextPage = () => {
             );
           })}
           <Link
-            href="/resume_simranjeekaur.pdf"
+            href="/resume_simranjeetkaur.pdf"
             download="simranjeetkaur"
             target="_blank"
           >
